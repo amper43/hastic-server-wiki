@@ -1,6 +1,6 @@
 ### Installation
 * [Linux](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
-* [Docker](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
+* [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
 
 ### Advanced
 * [Custom Analytics](https://github.com/hastic/hastic-server/wiki/Custom-model)
