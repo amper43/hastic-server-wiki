@@ -1,7 +1,7 @@
 ### Changelog
 
 ### [0.2.3-alpha] - 2018-09-27
-> NOTE: hastic-panels of versions older than 0.2.0 are not supported
+> NOTE: hastic-panels of versions older than 0.2.3 are not supported
 
 #### Added
 - More basic info about server [#154](https://github.com/hastic/hastic-server/issues/154)
