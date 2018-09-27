@@ -1,5 +1,17 @@
 ### Changelog
 
+### [0.2.3-alpha] - 2018-09-27
+> NOTE: hastic-panels of versions older than 0.2.0 are not supported
+
+#### Added
+- More basic info about server [#154](https://github.com/hastic/hastic-server/issues/154)
+- Integrate [grafana-datasource-kit](https://github.com/CorpGlory/grafana-datasource-kit) [#158](https://github.com/hastic/hastic-server/issues/158):
+  - Graphite support
+  - Prometheus support
+
+#### Changed
+- Reduce amount of required labeled segments for learning [#147](https://github.com/hastic/hastic-server/issues/147)
+
 ### [0.2.2-alpha] - 2018-09-12
 > NOTE: hastic-panels of versions older than 0.2.0 are not supported
 
