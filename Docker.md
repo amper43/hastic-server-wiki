@@ -12,6 +12,6 @@ docker run -d \
   --ipc host \
   -p 80:8000 \
   -e HASTIC_API_KEY=<your_grafana_api_key> \
-  -v /tmp:/tmp \
+  -v /some/host/path:/var/www/data \
   hastic/server
 ```
