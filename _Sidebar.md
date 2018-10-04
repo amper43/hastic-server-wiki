@@ -3,7 +3,7 @@
 * [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
 
 ### Advanced
-* [Custom Analytics](https://github.com/hastic/hastic-server/wiki/Custom-model)
+* [Custom Model](https://github.com/hastic/hastic-server/wiki/Custom-model)
 
 ### Development
 * [Installation From source](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
