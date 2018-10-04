@@ -23,7 +23,7 @@ And lets use Jupyter for designing your model.
 
 * So, now you have CustomModel class, which has two main methods: fit and predict.
 Segments is passed to the method `fit`, in which you can process labeled patterns, extract the necessary information
-and use it for prediction. The method "predict" is used to analyze the whole dataset. Using the parameters and data of the first method, you can evaluate your time series, for example, look for anomalies, similar patterns or predict next values.
+and use it for prediction. The method `predict` is used to analyze the whole dataset. Using the parameters and data of the first method, you can evaluate your time series, for example, look for anomalies, similar patterns or predict next values.
 
 * Select segments in any way you like. For example:
 
