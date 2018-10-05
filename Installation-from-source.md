@@ -4,8 +4,8 @@ Hastic server requires Grafana's API key (http://<your_grafana_url>/org/apikeys)
 API key role requires only `Viewer` access. 
 
 For API key creating do follow:
-Grafana Home -> Configuration -> API Keys
-In Add new pane: Role = `Viewer`
+* Grafana Home -> Configuration -> API Keys
+* Add new pane: Role = `Viewer` -> Add
 
 Possible to install on:
 
