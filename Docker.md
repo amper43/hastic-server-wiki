@@ -17,6 +17,9 @@ docker run -d \
   --name hastic-server \
   -p 8000:8000 \
   -e HASTIC_API_KEY=<your_grafana_api_key> \
+  -e ZMQ_CONNECTION_STRING=tcp://<your_IP>:8002\
   -v /some/host/path:/var/www/data \
   hastic/server
 ```
+
+NOTE: if you use grafana and hastic on one host, use real IP instead of localhost (or 127.0.0.1)
