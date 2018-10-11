@@ -22,4 +22,4 @@ docker run -d \
   hastic/server
 ```
 
-NOTE: if you use grafana and hastic on one host, use real IP instead of localhost (or 127.0.0.1)
+NOTE: if you use grafana and hastic on one host, use real IP instead of localhost (or 127.0.0.1) when open Grafana in browser.
