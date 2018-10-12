@@ -2,8 +2,12 @@
 
 #### Run via docker-compose
 
-compose file https://github.com/hastic/hastic-server/blob/master/docker-compose.yml
-`.env` file with default values (should be placed near docker-compose.yml) https://github.com/hastic/hastic-server/blob/master/.env
+compose file:
+`https://github.com/hastic/hastic-server/blob/master/docker-compose.yml`
+`.env` file with default values (should be placed near docker-compose.yml)
+`https://github.com/hastic/hastic-server/blob/master/.env`
+
+How to get HASTIC_API_KEY described here: [Get HASTIC_API_KEY](#Get HASTIC_API_KEY)
 
 ```bash
 export HASTIC_API_KEY=<your_grafana_api_key>
