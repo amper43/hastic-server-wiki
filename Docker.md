@@ -7,7 +7,7 @@ compose file:
 `.env` file with default values (should be placed near docker-compose.yml)
 `https://github.com/hastic/hastic-server/blob/master/.env`
 
-How to get HASTIC_API_KEY described here: https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY
+How to get HASTIC_API_KEY described here: [Get-HASTIC_API_KEY](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY)
 
 ```bash
 export HASTIC_API_KEY=<your_grafana_api_key>
@@ -32,4 +32,4 @@ docker run -d \
 
 NOTE: if you use grafana and hastic on one host, use real IP instead of localhost (or 127.0.0.1) when open Grafana in browser.
 
-In docker hastic use tcp connection. If you want to increase performance use hastic with host's ipc (production mode, without docker) as described in [Linux](https://github.com/hastic/hastic-server/wiki/Installation-from-source).
+In docker hastic use tcp connection. If you want to increase performance use hastic with host's ipc (production mode, without docker) as described in [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source).
