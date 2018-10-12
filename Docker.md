@@ -1,5 +1,7 @@
 ### Docker
 
+Server and analytics processes work in separate docker containers. There are several ways to run which listed here.
+
 #### Run via docker-compose
 
  You can use [docker-compose](https://docs.docker.com/compose/) setup for more useful and declarative management of containers. For this you need `docker-compose.yml` file that contain services configuration and `.env` file that contain variables default values which placed here:  
@@ -33,5 +35,7 @@ docker run -d \
 ```
 
 NOTE: if you use grafana and hastic on one host, use real IP instead of localhost (or 127.0.0.1) when open Grafana in browser.
+
+ZMQ_CONNECTION_STRING is the string which be used for connection beween server and analyics. For docker-compose by default will be used value `tcp://analytics:8002` from .env file. For manuall setup use tcp://<analytics_ip>:8002 with WAN IP (for example 192.168.0.1).
 
 In docker hastic use tcp connection. If you want to increase performance use hastic with host's ipc (production mode, without docker) as described in [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source).
