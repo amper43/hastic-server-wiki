@@ -2,7 +2,7 @@
 
 #### Run via docker-compose
 
-You need `docker-compose.yml` file that contain services configuration and `.env` file that contain variables default values which placed here:  
+You can use docker-compose setup for more useful and declarative management of containers. For this you need `docker-compose.yml` file that contain services configuration and `.env` file that contain variables default values which placed here:  
 https://github.com/hastic/hastic-server/blob/master/docker-compose.yml  
 https://github.com/hastic/hastic-server/blob/master/.env  
 This files should be placed together.
