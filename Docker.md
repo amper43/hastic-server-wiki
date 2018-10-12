@@ -1,6 +1,10 @@
 ### Docker
 
 #### Run via docker-compose
+
+compose file https://github.com/hastic/hastic-server/blob/master/docker-compose.yml
+`.env` file with default values (should be placed near docker-compose.yml) https://github.com/hastic/hastic-server/blob/master/.env
+
 ```bash
 export HASTIC_API_KEY=<your_grafana_api_key>
 docker-compose up -d
@@ -24,4 +28,4 @@ docker run -d \
 
 NOTE: if you use grafana and hastic on one host, use real IP instead of localhost (or 127.0.0.1) when open Grafana in browser.
 
-In docker hastic use tcp connection. If you want to increase performance use hastic with host's ipc (production mode, without docker).
+In docker hastic use tcp connection. If you want to increase performance use hastic with host's ipc (production mode, without docker) as described in https://github.com/hastic/hastic-server/wiki/Installation-from-source.
