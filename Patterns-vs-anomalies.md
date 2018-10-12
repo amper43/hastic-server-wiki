@@ -1,0 +1,3 @@
+In Hastic, words "pattern" and "anomaly" are used interchangeably. But it is not correct.
+
+We have algorithms for detecting patterns in your data, but if you want to detect outliers (another way to name anomaly) than you need a different class of algorithms. Which is usually unsupervised. We had it before and removed because we wanted something that users could understand and use. We are going to bring this class of algorithms (for proper anomaly detection) later.
