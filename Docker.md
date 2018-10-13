@@ -38,4 +38,4 @@ NOTE: if you use grafana and hastic on one host, use real IP instead of localhos
 
 ZMQ_CONNECTION_STRING is the string which be used for connection beween server and analyics. For docker-compose by default will be used value `tcp://analytics:8002` from .env file. For manuall setup use tcp://<analytics_ip>:8002 with WAN IP (for example 192.168.0.1).
 
-In docker hastic use tcp connection. If you want to increase performance use hastic with host's ipc (production mode, without docker) as described in [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source).
+In Docker Hastic uses TCP connection. If you want to increase performance use IPC in production mode as described in [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source).
