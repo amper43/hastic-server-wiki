@@ -10,8 +10,7 @@ Server and analytics processes work in separate docker containers. There are sev
 
 This files should be placed in one folder.
 
-
- How to get HASTIC_API_KEY described [here](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY).
+How to get HASTIC_API_KEY described [here](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY).
 
 ```bash
 export HASTIC_API_KEY=<your_grafana_api_key>
@@ -34,8 +33,8 @@ docker run -d \
   hastic/server
 ```
 
-NOTE: if you use grafana and hastic on one host, use real IP instead of localhost (or 127.0.0.1) when open Grafana in browser.
+NOTE: if you use Grafana and Hastic on one host, use real IP instead of `localhost` (or `127.0.0.1`) when open Grafana in browser.
 
-ZMQ_CONNECTION_STRING is the string which be used for connection beween server and analyics. For docker-compose by default will be used value `tcp://analytics:8002` from .env file. For manuall setup use tcp://<analytics_ip>:8002 with WAN IP (for example 192.168.0.1).
+`ZMQ_CONNECTION_STRING` is the string which be used for connection between server and analytics. For docker-compose by default will be used value `tcp://analytics:8002` from `.env `file. For manual setup use `tcp://<analytics_ip>:8002` with WAN IP (for example `192.168.0.1`).
 
-In Docker Hastic uses TCP connection. If you want to increase performance use IPC in production mode as described in [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source).
+In Docker, Hastic uses TCP connection. If you want to increase performance use IPC in production mode as described in [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source).
