@@ -10,7 +10,7 @@ Server and analytics processes work in separate docker containers. There are sev
 
 This files should be placed in one folder.
 
-How to get HASTIC_API_KEY described [here](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY).
+How to get `HASTIC_API_KEY` described [here](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY).
 
 ```bash
 export HASTIC_API_KEY=<your_grafana_api_key>
