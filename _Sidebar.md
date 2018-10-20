@@ -11,3 +11,4 @@
 * [Development mode](https://github.com/hastic/hastic-server/wiki/Development-mode)
 * [Change Log](https://github.com/hastic/hastic-server/wiki/Change-log)
 * [Architecture](https://github.com/hastic/hastic-server/wiki/Architecture)
+* [Roadmap](https://github.com/hastic/hastic-server/wiki/Roadmap)
