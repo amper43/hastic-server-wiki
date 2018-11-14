@@ -33,7 +33,7 @@ docker run -d \
   hastic/server
 ```
 
-NOTE: if you use Grafana and Hastic on one host, use any host IP (e.g. `192.168.0.1`) except for `localhost` (or `127.0.0.1`) when Grafana os opened in browser. Otherwise Hastic will try to find Grafana inside Docker and fail.
+NOTE: if you use Grafana and Hastic on one host, use your host IP (e.g. `http://192.168.0.1:3000` instead of `http://localhost:3000` / `http://127.0.0.1:3000`) when opening Grafana in browser. Otherwise Hastic will try to find Grafana inside Docker container and fail.
 
 `ZMQ_CONNECTION_STRING` is the string which is used for connection between server and analytics. For docker-compose by default the value `tcp://analytics:8002` from `.env `file will be used. For manual setup use `tcp://<analytics_ip>:8002` with WAN IP (for example `192.168.0.1`).
 
