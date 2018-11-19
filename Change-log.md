@@ -1,5 +1,26 @@
 ### Changelog
 
+### [0.2.4-alpha] - 2018-11-19
+> NOTE: hastic-panels of versions older than 0.2.3 are not supported
+
+#### Added
+- Processing for 'NaN' values [#231](https://github.com/hastic/hastic-server/issues/231)
+
+#### Changed
+- Server info v2 [#167](https://github.com/hastic/hastic-server/issues/167)
+- Specific error messages [#201](https://github.com/hastic/hastic-server/issues/201)
+- Models with filtering [#186](https://github.com/hastic/hastic-server/issues/186)
+- Decouple "analytics" and "server" processes to different docker containers [#187](https://github.com/hastic/hastic-server/issues/187)
+
+#### Fixed
+- Fix models for choosing the "wrong" patterns [#195](https://github.com/hastic/hastic-server/issues/195)
+- Old segments are not deleted [#198](https://github.com/hastic/hastic-server/issues/198)
+- Analytics works with one labeled segment [#191](https://github.com/hastic/hastic-server/issues/191)
+- Error list index out of range AND max() arg is an empty sequence [#212](https://github.com/hastic/hastic-server/issues/212)
+- Incorrect work of models with single patterns [#234](https://github.com/hastic/hastic-server/issues/234)
+- Incorrect work of analytics with NaN-filled dataset [#247](https://github.com/hastic/hastic-server/issues/247)
+- Anti-segments do not fall into analytics [#181](https://github.com/hastic/hastic-server/issues/181)
+
 ### [0.2.3-alpha] - 2018-09-27
 > NOTE: hastic-panels of versions older than 0.2.3 are not supported
 
