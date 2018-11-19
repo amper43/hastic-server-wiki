@@ -1,6 +1,6 @@
 ### Installation
 * [Get HASTIC_API_KEY](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY)
-* [Linux](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
+* [Linux](https://github.com/hastic/hastic-server/wiki/Installation-in-Linux)
 * [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
 
 ### Advanced
