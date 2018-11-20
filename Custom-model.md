@@ -1,4 +1,5 @@
-You can make your model on Python
+You can write your own model using Python
+https://github.com/hastic/hastic-server/blob/master/analytics/analytics/models/custom_model.py
 
 # Workflow
 
