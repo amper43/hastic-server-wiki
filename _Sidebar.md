@@ -4,11 +4,11 @@
 * [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
 
 ### Advanced
-* [Custom Model](https://github.com/hastic/hastic-server/wiki/Custom-model)
+* [Custom model](https://github.com/hastic/hastic-server/wiki/Custom-model)
 
 ### Development
-* [Installation From source](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
+* [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
 * [Development mode](https://github.com/hastic/hastic-server/wiki/Development-mode)
-* [Change Log](https://github.com/hastic/hastic-server/wiki/Change-log)
+* [Change log](https://github.com/hastic/hastic-server/wiki/Change-log)
 * [Architecture](https://github.com/hastic/hastic-server/wiki/Architecture)
 * [Roadmap](https://github.com/hastic/hastic-server/wiki/Roadmap)
