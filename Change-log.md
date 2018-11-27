@@ -5,6 +5,9 @@
 #### Added
 - Parallel learning for analytic units [#203](https://github.com/hastic/hastic-server/issues/203)
 
+#### Fixed
+- npm security alert: [GHSA-mh6f-8j2x-4483](https://github.com/dominictarr/event-stream/issues/116)
+
 ### [0.2.4-alpha] - 2018-11-19
 > NOTE: hastic-panels of versions older than 0.2.3 are not supported
 
