@@ -4,8 +4,10 @@
 
 #### Added
 - Parallel learning for analytic units [#203](https://github.com/hastic/hastic-server/issues/203)
+- Git info to Docker [#238](https://github.com/hastic/hastic-server/issues/238)
 
 #### Fixed
+- Cancel learning on analytic unit deletion [#266](https://github.com/hastic/hastic-server/issues/266)
 - npm security alert: [GHSA-mh6f-8j2x-4483](https://github.com/dominictarr/event-stream/issues/116)
 
 ### [0.2.4-alpha] - 2018-11-19
