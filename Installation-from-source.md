@@ -48,3 +48,16 @@ You can also rename `config.example.json` to `config.json` and set your values t
 cd hastic-server/server
 npm start
 ```
+
+#### Run tests
+##### Analytics
+```bash
+cd analytics
+python3 -m unittest discover
+```
+
+##### Server
+```bash
+cd server
+npm test
+```
