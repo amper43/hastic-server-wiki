@@ -56,6 +56,8 @@ cd analytics
 python3 -m unittest discover
 ```
 
+`discover` flag used to look though all tests in folder.
+
 ##### Server
 ```bash
 cd server
