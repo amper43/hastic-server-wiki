@@ -21,3 +21,18 @@ python3 server.py
 ```
 
 It is also possible to run python process from vscode on a different machine. For example, you may want to run python on Windows and connect it to Linux process which runs via [WSL](https://docs.microsoft.com/en-us/windows/wsl/about).
+
+#### Run tests
+##### Analytics
+```bash
+cd analytics
+python3 -m unittest discover
+```
+
+`discover` flag used to look though all tests in folder.
+
+##### Server
+```bash
+cd server
+npm test
+```
