@@ -49,17 +49,4 @@ cd hastic-server/server
 npm start
 ```
 
-#### Run tests
-##### Analytics
-```bash
-cd analytics
-python3 -m unittest discover
-```
-
-`discover` flag used to look though all tests in folder.
-
-##### Server
-```bash
-cd server
-npm test
-```
+See also [Development](https://github.com/hastic/hastic-server/wiki/Development-mode)
