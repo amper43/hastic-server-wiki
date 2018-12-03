@@ -5,6 +5,7 @@
 
 ### Advanced
 * [Custom model](https://github.com/hastic/hastic-server/wiki/Custom-model)
+* [Web hooks](https://github.com/hastic/hastic-server/wiki/Web-hooks)
 
 ### Development
 * [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
