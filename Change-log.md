@@ -1,6 +1,6 @@
 ### Changelog
 
-### [0.2.5-alpha] - (not released)
+### [0.2.5-alpha] - 2018-12-03
 
 #### Added
 - PostgreSQL / TimescaleDB support
