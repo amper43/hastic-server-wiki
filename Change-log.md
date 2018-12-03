@@ -3,7 +3,7 @@
 ### [0.2.5-alpha] - 2018-12-03
 
 #### Added
-- PostgreSQL / TimescaleDB support
+- PostgreSQL / TimescaleDB support (update [grafana-datasource-kit](https://github.com/CorpGlory/grafana-datasource-kit) to 0.0.11)
 - Parallel learning for analytic units [#203](https://github.com/hastic/hastic-server/issues/203)
 
 #### Fixed
