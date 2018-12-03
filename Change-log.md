@@ -3,6 +3,7 @@
 ### [0.2.5-alpha] - (not released)
 
 #### Added
+- PostgreSQL / TimescaleDB support
 - Parallel learning for analytic units [#203](https://github.com/hastic/hastic-server/issues/203)
 
 #### Fixed
