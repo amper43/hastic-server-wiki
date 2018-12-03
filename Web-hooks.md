@@ -1,6 +1,5 @@
-# Anomaly hooks
 
-It's possible to get notifications about new anomalies via [WebHooks](https://en.wikipedia.org/wiki/Webhook)
+It's possible to get notifications about detection of patterns / anomalies via [WebHooks](https://en.wikipedia.org/wiki/Webhook)
 
 You need to set variable `HASTIC_ALERT_ENDPOINT` with your endpoint and expects `POST` methods 
 from hastic-server if format:
