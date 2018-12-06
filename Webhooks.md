@@ -1,34 +1,18 @@
 
 It's possible to get notifications about detection of patterns / anomalies via [WebHooks](https://en.wikipedia.org/wiki/Webhook)
 
-You need to set variable `HASTIC_ALERT_ENDPOINT` with your endpoint and expects `POST` methods 
-from hastic-server if format:
+You need to set variables (whether in `config.json` or as environment variables):
+- `HASTIC_WEBHOOK_URL` with your endpoint which expects `POST` requests
+- `HASTIC_WEBHOOK_TYPE` which can be:
+  - `application/x-www-form-urlencoded` (default) - payload will be sent as form parameters
+  - `application/json` - payload will be sent in request body as json
 
+
+Payload example
 ```json
 {
-  "anomaly": "cpu_load",
-  "status": "OK"
-}
-```
-
-`status` field can be one of:
-- `alert`
-- `OK`
-
-## Docker run
-```bash
-docker run -d --name hastic-server -p 80:8000 -e HASTIC_API_KEY=<your_grafana_api_key> HASTIC_ALERT_ENDPOINT="http://exam.ple" hastic-server
-```
-
-## Node run
-
-Add variable before launch node.js server
-
-```bash
-export HASTIC_API_KEY=<your_grafana_api_key>
-export HASTIC_PORT=<port_you_want_to_run_server_on>
-export HASTIC_ALERT_ENDPOINT=http://alert.example.com
-
-cd hastic-server/server
-npm start
+    analyticUnitName: 'cpu_peaks',
+    from: 1544135000,
+    to: 1544138330
+  };
 ```
