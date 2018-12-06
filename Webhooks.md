@@ -11,8 +11,8 @@ You need to set variables (whether in `config.json` or as environment variables)
 JSON Payload example
 ```json
 {
-    "analyticUnitName": "cpu_peaks",
-    "from": 1544135000,
-    "to": 1544138330
-  };
+  "analyticUnitName": "cpu_peaks",
+  "from": 1544135000,
+  "to": 1544138330
+}
 ```
