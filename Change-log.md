@@ -1,5 +1,14 @@
 ### Changelog
 
+### [0.2.6-alpha] - Not released yet
+
+#### Added
+- Verification of incoming and outgoing data in analytics [#227](https://github.com/hastic/hastic-server/issues/227)
+
+#### Fixed
+- Restore hooks API [#149](https://github.com/hastic/hastic-server/issues/149)
+- The center of drop and jump patterns is shifted from real value [#291](https://github.com/hastic/hastic-server/issues/291)
+
 ### [0.2.5-alpha] - 2018-12-03
 
 #### Added
