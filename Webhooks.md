@@ -16,3 +16,5 @@ JSON Payload example
   "to": 1544138330
 }
 ```
+
+See [Webhooks](https://github.com/hastic/hastic-grafana-graph-panel/wiki/Webhooks) oh hastic-grafana-panel
