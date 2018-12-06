@@ -1,5 +1,5 @@
 
-It's possible to get notifications about detection of patterns / anomalies via [WebHooks](https://en.wikipedia.org/wiki/Webhook)
+It's possible to get notifications about detection of patterns via [WebHooks](https://en.wikipedia.org/wiki/Webhook)
 
 You need to set variables (whether in `config.json` or as environment variables):
 - `HASTIC_WEBHOOK_URL` with your endpoint which expects `POST` requests
