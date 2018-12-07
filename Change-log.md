@@ -8,6 +8,7 @@
 #### Fixed
 - Restore [webhooks](https://github.com/hastic/hastic-server/wiki/Webhooks) API [#149](https://github.com/hastic/hastic-server/issues/149)
 - The center of drop and jump patterns is shifted from real value [#291](https://github.com/hastic/hastic-server/issues/291)
+- No detections after fresh learning [#298](https://github.com/hastic/hastic-server/issues/298)
 
 ### [0.2.5-alpha] - 2018-12-03
 
