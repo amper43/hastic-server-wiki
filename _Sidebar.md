@@ -10,6 +10,6 @@
 ### Development
 * [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
 * [Development mode](https://github.com/hastic/hastic-server/wiki/Development-mode)
-* [Change log](https://github.com/hastic/hastic-server/wiki/Change-log)
+* [Changelog](https://github.com/hastic/hastic-server/wiki/Changelog)
 * [Architecture](https://github.com/hastic/hastic-server/wiki/Architecture)
 * [Roadmap](https://github.com/hastic/hastic-server/wiki/Roadmap)
