@@ -1,6 +1,6 @@
 ### Changelog
 
-### [0.2.6-alpha] - Not released yet
+### [0.2.6-alpha] - 2018-12-07
 
 #### Added
 - Verification of incoming and outgoing data in analytics [#227](https://github.com/hastic/hastic-server/issues/227)
