@@ -1,5 +1,25 @@
 ### Changelog
 
+### [0.2.7-alpha] - not released yet
+
+#### Added
+- Threshold detector [#324](https://github.com/hastic/hastic-server/issues/324)
+- Grafana url to config [#114](https://github.com/hastic/hastic-server/issues/114)
+- Endpoint for setting analytic unit metric [#338](https://github.com/hastic/hastic-server/issues/338)
+- Log all analytics errors [#353](https://github.com/hastic/hastic-server/issues/353)
+- Endpoint for analytic unit types [#328](https://github.com/hastic/hastic-server/issues/328)
+
+#### Fixed
+- Detection return empty result [#347](https://github.com/hastic/hastic-server/issues/347)
+- Segments from data puller not in db and panel [#350](https://github.com/hastic/hastic-server/issues/350)
+- Error: '<' not supported between instances of 'NoneType' and 'NoneType' [#323](https://github.com/hastic/hastic-server/issues/323)
+- IndexError: list index out of range if segment has NaN [#242](https://github.com/hastic/hastic-server/issues/242)
+- Error: name 'parse_segment' is not defined [#315](https://github.com/hastic/hastic-server/issues/315)
+- Error: ValueError - dataset input should have multiple elements [#325](https://github.com/hastic/hastic-server/issues/325)
+
+#### Changed
+- Move data cropping to the models [#335](https://github.com/hastic/hastic-server/issues/335)
+
 ### [0.2.6-alpha] - 2018-12-07
 
 #### Added
