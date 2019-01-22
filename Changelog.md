@@ -1,6 +1,6 @@
 ### Changelog
 
-### [0.2.7-alpha] - not released yet
+### [0.2.7-alpha] - 2019-01-22
 
 #### Added
 - Threshold detector [#324](https://github.com/hastic/hastic-server/issues/324)
