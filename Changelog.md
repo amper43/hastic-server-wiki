@@ -10,6 +10,7 @@
 - Endpoint for analytic unit types [#328](https://github.com/hastic/hastic-server/issues/328)
 
 #### Fixed
+- ElasticSearch scrolling [grafana-datasource-kit/#49](https://github.com/CorpGlory/grafana-datasource-kit/issues/49)
 - Detection return empty result [#347](https://github.com/hastic/hastic-server/issues/347)
 - Segments from data puller not in db and panel [#350](https://github.com/hastic/hastic-server/issues/350)
 - TypeError: console.debug is not a function in node 6 [#360](https://github.com/hastic/hastic-server/issues/360)
