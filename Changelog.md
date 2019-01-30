@@ -1,4 +1,21 @@
 ### Changelog
+### [0.2.8-alpha] - not yet released
+
+#### Added
+- Renaming of analytic units [#343](https://github.com/hastic/hastic-server/issues/343)
+
+#### Fixed
+- Empty config value is not replaced by default value [#380](https://github.com/hastic/hastic-server/issues/380)
+- Error: cannot read property `analyticUnitId` of undefined [#378](https://github.com/hastic/hastic-server/issues/378)
+- Setting `GRAFANA_URL` in .env doesn't work [#376](https://github.com/hastic/hastic-server/issues/376)
+- Nonetype object has no attribute update [#375](https://github.com/hastic/hastic-server/issues/375)
+- Threshold value is not saving [#368](https://github.com/hastic/hastic-server/issues/368)
+- Sort segments in `processDetectionResult` [#354](https://github.com/hastic/hastic-server/issues/354)
+
+#### Changed
+- Default config options for docker-compose without .env [#372](https://github.com/hastic/hastic-server/issues/372)
+- Log all analytic errors [#353](https://github.com/hastic/hastic-server/issues/353)
+- Save threshold alert state [#340](https://github.com/hastic/hastic-server/issues/340)
 
 ### [0.2.7-alpha] - 2019-01-22
 
