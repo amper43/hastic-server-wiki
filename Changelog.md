@@ -11,6 +11,11 @@
 - Nonetype object has no attribute update [#375](https://github.com/hastic/hastic-server/issues/375)
 - Threshold value is not saving [#368](https://github.com/hastic/hastic-server/issues/368)
 - Sort segments in `processDetectionResult` [#354](https://github.com/hastic/hastic-server/issues/354)
+- Thresholds work incorrect with elastic datasource [#388](https://github.com/hastic/hastic-server/issues/388)
+- KeyError 45058 [#389](https://github.com/hastic/hastic-server/issues/389)
+- Error: missing segments in result or it is corrupted [#392](https://github.com/hastic/hastic-server/issues/392)
+- Wrong time in threshold segments [#403](https://github.com/hastic/hastic-server/issues/403)
+
 
 #### Changed
 - Default config options for docker-compose without .env [#372](https://github.com/hastic/hastic-server/issues/372)
