@@ -15,6 +15,7 @@
 - KeyError 45058 [#389](https://github.com/hastic/hastic-server/issues/389)
 - Error: missing segments in result or it is corrupted [#392](https://github.com/hastic/hastic-server/issues/392)
 - Wrong time in threshold segments [#403](https://github.com/hastic/hastic-server/issues/403)
+- Webhooks don't find any patterns [#401](https://github.com/hastic/hastic-server/issues/401)
 
 
 #### Changed
