@@ -1,5 +1,5 @@
 ### Changelog
-### [0.2.8-alpha] - not yet released
+### [0.2.8-alpha] - 2019-02-11
 
 #### Added
 - Renaming of analytic units [#343](https://github.com/hastic/hastic-server/issues/343)
