@@ -20,7 +20,7 @@
 #### Changed
 - Default config options for docker-compose without .env [#372](https://github.com/hastic/hastic-server/issues/372)
 - Log all analytic errors [#353](https://github.com/hastic/hastic-server/issues/353)
-- Save threshold alert state [#340](https://github.com/hastic/hastic-server/issues/340)
+- Threshold detector memory [#340](https://github.com/hastic/hastic-server/issues/340)
 
 ### [0.2.7-alpha] - 2019-01-22
 
