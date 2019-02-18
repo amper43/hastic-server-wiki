@@ -31,6 +31,7 @@
 ### [0.2.7-alpha] - 2019-01-22
 
 #### Added
+- ElasticSearch support [grafana-datasource-kit/#4](https://github.com/CorpGlory/grafana-datasource-kit/issues/4)
 - Threshold detector [#324](https://github.com/hastic/hastic-server/issues/324)
 - Grafana url to config [#114](https://github.com/hastic/hastic-server/issues/114)
 - Endpoint for setting analytic unit metric [#338](https://github.com/hastic/hastic-server/issues/338)
