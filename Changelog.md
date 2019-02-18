@@ -1,4 +1,10 @@
 ### Changelog
+### [0.3.0-alpha] - Not yet released
+
+#### Fixed
+- KeyError: 'ipeaks' [#410](https://github.com/hastic/hastic-server/issues/410)
+- Drops pattern ValueError: All elements of patterns_list should have same length [#414](https://github.com/hastic/hastic-server/issues/414)
+
 ### [0.2.8-alpha] - 2019-02-11
 
 #### Added
@@ -16,7 +22,6 @@
 - Error: missing segments in result or it is corrupted [#392](https://github.com/hastic/hastic-server/issues/392)
 - Wrong time in threshold segments [#403](https://github.com/hastic/hastic-server/issues/403)
 - Webhooks don't find any patterns [#401](https://github.com/hastic/hastic-server/issues/401)
-
 
 #### Changed
 - Default config options for docker-compose without .env [#372](https://github.com/hastic/hastic-server/issues/372)
