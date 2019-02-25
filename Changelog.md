@@ -1,9 +1,17 @@
 ### Changelog
-### [0.3.0-alpha] - Not yet released
+### [0.3.0-beta] - Not yet released
+
+#### Added
+- Webhook about missing connection to Grafana [#412](https://github.com/hastic/hastic-server/issues/412)
+- Accept various URL inputs [#416](https://github.com/hastic/hastic-server/issues/416)
+- Print config options on start [#365](https://github.com/hastic/hastic-server/issues/365) 
 
 #### Fixed
 - KeyError: 'ipeaks' [#410](https://github.com/hastic/hastic-server/issues/410)
 - Drops pattern ValueError: All elements of patterns_list should have same length [#414](https://github.com/hastic/hastic-server/issues/414)
+
+#### Changed
+- Pattern filtering logic [#366](https://github.com/hastic/hastic-server/issues/366)
 
 ### [0.2.8-alpha] - 2019-02-11
 
