@@ -2,6 +2,7 @@
 * [Get HASTIC_API_KEY](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY)
 * [Linux](https://github.com/hastic/hastic-server/wiki/Installation-in-Linux)
 * [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
+* [RPM](https://github.com/hastic/hastic-server/wiki/Installation-from-RPM)
 
 ### Advanced
 * [Custom model](https://github.com/hastic/hastic-server/wiki/Custom-model)
