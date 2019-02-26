@@ -13,6 +13,3 @@
 
 #### Run:
 - `sudo hastic-server`
-
-#### Upgrade:
-- `sudo rpm -e hastic-server`
