@@ -1,6 +1,6 @@
 #### System requirements:
 - CentOS 7 / RHEL 7
-- Node.js 8.x or Node.js 6.x
+- Node.js 8.x / Node.js 6.x
 
 #### Installation 
 ##### Node.js 6.x:
