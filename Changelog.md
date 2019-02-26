@@ -4,7 +4,9 @@
 #### Added
 - Webhook about missing connection to Grafana [#412](https://github.com/hastic/hastic-server/issues/412)
 - Accept various URL inputs [#416](https://github.com/hastic/hastic-server/issues/416)
-- Print config options on start [#365](https://github.com/hastic/hastic-server/issues/365) 
+- Print config options on start [#365](https://github.com/hastic/hastic-server/issues/365)
+- More info in webhooks [#436](https://github.com/hastic/hastic-server/pull/436)
+- Accept various URL inputs [#416](https://github.com/hastic/hastic-server/issues/416)
 
 #### Fixed
 - KeyError: 'ipeaks' [#410](https://github.com/hastic/hastic-server/issues/410)
