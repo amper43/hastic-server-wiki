@@ -1,5 +1,5 @@
 ### Changelog
-### [0.3.0-beta] - Not yet released
+### [0.3.0-beta] - 2019-02-26
 
 #### Added
 - Webhook about missing connection to Grafana [#412](https://github.com/hastic/hastic-server/issues/412)
@@ -7,7 +7,7 @@
 - Print config options on start [#365](https://github.com/hastic/hastic-server/issues/365)
 - More info in webhooks [#436](https://github.com/hastic/hastic-server/pull/436)
 - Accept various URL inputs [#416](https://github.com/hastic/hastic-server/issues/416)
-- RPM release
+- RPM release [#317](https://github.com/hastic/hastic-server/pull/317)
 
 #### Fixed
 - KeyError: 'ipeaks' [#410](https://github.com/hastic/hastic-server/issues/410)
@@ -15,9 +15,12 @@
 - ValueError: operands could not be broadcast together with shapes [#425](https://github.com/hastic/hastic-server/issues/425)
 - Do not insert found segment if it intersects with negative [#434](https://github.com/hastic/hastic-server/issues/434)
 - No server info [#417](https://github.com/hastic/hastic-server/issues/417)
+- Disable webhook: TypeError: Cannot read property 'toString' of undefined [#415](https://github.com/hastic/hastic-server/issues/415)
+- UnhandledPromiseRejectionWarning [#419](https://github.com/hastic/hastic-server/issues/419)
 
 #### Changed
 - Pattern filtering logic [#366](https://github.com/hastic/hastic-server/issues/366)
+- Add correlation in general model [#437](https://github.com/hastic/hastic-server/issues/437)
 
 ### [0.2.8-alpha] - 2019-02-11
 
