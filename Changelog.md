@@ -12,6 +12,7 @@
 - KeyError: 'ipeaks' [#410](https://github.com/hastic/hastic-server/issues/410)
 - Drops pattern ValueError: All elements of patterns_list should have same length [#414](https://github.com/hastic/hastic-server/issues/414)
 - ValueError: operands could not be broadcast together with shapes [#425](https://github.com/hastic/hastic-server/issues/425)
+- Do not insert found segment if it intersects with negative [#434](https://github.com/hastic/hastic-server/issues/434)
 
 #### Changed
 - Pattern filtering logic [#366](https://github.com/hastic/hastic-server/issues/366)
