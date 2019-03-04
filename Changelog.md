@@ -1,4 +1,10 @@
 ### Changelog
+### [0.3.1-beta] - Not yet released
+
+#### Fixed
+- TypeError: ufunc 'isnan' not supported for the input types [#447](https://github.com/hastic/hastic-server/issues/447)
+- Analytic bucket size [#446](https://github.com/hastic/hastic-server/issues/446)
+
 ### [0.3.0-beta] - 2019-02-26
 
 #### Added
