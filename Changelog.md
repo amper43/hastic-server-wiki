@@ -1,5 +1,5 @@
 ### Changelog
-### [0.3.1-beta] - Not yet released
+### [0.3.1-beta] - 2019-03-05
 
 #### Fixed
 - TypeError: ufunc 'isnan' not supported for the input types [#447](https://github.com/hastic/hastic-server/issues/447)
