@@ -4,6 +4,8 @@
 * [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
 * [RPM](https://github.com/hastic/hastic-server/wiki/Installation-from-RPM)
 
+
+### [Supported datasources](https://github.com/hastic/hastic-grafana-app/wiki/Supported-datasources)
 ### Advanced
 * [Custom model](https://github.com/hastic/hastic-server/wiki/Custom-model)
 * [Webhooks](https://github.com/hastic/hastic-server/wiki/Webhooks)
