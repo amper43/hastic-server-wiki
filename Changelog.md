@@ -6,6 +6,7 @@
 - Learning timeout [#481](https://github.com/hastic/hastic-server/issues/481)
 - Server info: number of task resolvers [#510](https://github.com/hastic/hastic-server/pull/510)
 - Server info: Detections number [#516](https://github.com/hastic/hastic-server/pull/516)
+- Hastic-exporter for Prometheus [#520](https://github.com/hastic/hastic-server/pull/520)
 
 #### Changed
 - Synchronize data with server [#455](https://github.com/hastic/hastic-server/issues/455)
