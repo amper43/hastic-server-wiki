@@ -20,7 +20,7 @@
 - Analytic units' panel fields are not saved to db [#523](https://github.com/hastic/hastic-server/issues/523)
 - KeyError: 'pattern_model' [#471](https://github.com/hastic/hastic-server/issues/471)
 - Prometheus returns wrong time units [CorpGlory/grafana-datasource-kit#62](https://github.com/CorpGlory/grafana-datasource-kit/issues/62)
-- ValueError attempt to get argmin of an empty sequence [#518](https://github.com/hastic/hastic-server/issues/518)
+- ValueError: attempt to get argmin of an empty sequence [#518](https://github.com/hastic/hastic-server/issues/518)
 
 ### [0.3.1-beta] - 2019-03-05
 
