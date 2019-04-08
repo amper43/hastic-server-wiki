@@ -15,6 +15,7 @@
 - Find start and end of peaks and troughs [#506](https://github.com/hastic/hastic-server/issues/506)
 
 #### Fixed
+- Not-ending learning [#264](https://github.com/hastic/hastic-server/issues/264)
 - Analytic units' panel fields are not saved to db [#523](https://github.com/hastic/hastic-server/issues/523)
 - KeyError: 'pattern_model' [#471](https://github.com/hastic/hastic-server/issues/471)
 - Prometheus returns wrong time units [CorpGlory/grafana-datasource-kit#62](https://github.com/CorpGlory/grafana-datasource-kit/issues/62)
