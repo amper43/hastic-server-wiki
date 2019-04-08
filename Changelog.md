@@ -9,7 +9,7 @@
 - Hastic-exporter for Prometheus [#520](https://github.com/hastic/hastic-server/pull/520)
 
 #### Changed
-- Synchronize data with server [#455](https://github.com/hastic/hastic-server/issues/455)
+- Synchronization with panel [#455](https://github.com/hastic/hastic-server/issues/455)
 - Add tasks to queue when analytics is not ready [#468](https://github.com/hastic/hastic-server/issues/468)
 - Send data to detection in chunks [#489](https://github.com/hastic/hastic-server/issues/489)
 - Batch detection [#500](https://github.com/hastic/hastic-server/issues/500)
