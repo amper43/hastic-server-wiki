@@ -1,4 +1,23 @@
 ### Changelog
+
+### [0.3.2-beta] - not released yet
+
+#### Added
+- Learning timeout [#481](https://github.com/hastic/hastic-server/issues/481)
+- Server info: number of task resolvers [#510](https://github.com/hastic/hastic-server/pull/510)
+- Server info: Detections number [#516](https://github.com/hastic/hastic-server/pull/516)
+
+#### Changed
+- Synchronize data with server [#455](https://github.com/hastic/hastic-server/issues/455)
+- Add tasks to queue when analytics is not ready [#468](https://github.com/hastic/hastic-server/issues/468)
+- Send data to detection in chunks [#489](https://github.com/hastic/hastic-server/issues/489)
+- Batch detection [#500](https://github.com/hastic/hastic-server/issues/500)
+- Find start and end of peaks and troughs [#506](https://github.com/hastic/hastic-server/issues/506)
+
+#### Fixed
+- Analytic units' panel fields are not saved to db [#523](https://github.com/hastic/hastic-server/issues/523)
+- KeyError: 'pattern_model' [#471](https://github.com/hastic/hastic-server/issues/471)
+
 ### [0.3.1-beta] - 2019-03-05
 
 #### Fixed
