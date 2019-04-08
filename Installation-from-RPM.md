@@ -4,12 +4,12 @@
 
 #### Installation 
 ##### Node.js 6.x:
-- `wget https://github.com/hastic/hastic-server/releases/download/0.3.1-beta/hastic-server-0.3.1-beta-node-6.rpm`
-- `sudo rpm -i hastic-server-0.3.1-beta-node-6.rpm`
+- `wget https://github.com/hastic/hastic-server/releases/download/0.3.2-beta/hastic-server-0.3.2-beta-node-6.rpm`
+- `sudo rpm -i hastic-server-0.3.2-beta-node-6.rpm`
 
 ##### Node.js 8.x:
-- `wget https://github.com/hastic/hastic-server/releases/download/0.3.1-beta/hastic-server-0.3.1-beta-node-8.rpm`
-- `sudo rpm -i hastic-server-0.3.1-beta-node-8.rpm`
+- `wget https://github.com/hastic/hastic-server/releases/download/0.3.2-beta/hastic-server-0.3.2-beta-node-8.rpm`
+- `sudo rpm -i hastic-server-0.3.2-beta-node-8.rpm`
 
 #### Run:
 - `sudo hastic-server`
