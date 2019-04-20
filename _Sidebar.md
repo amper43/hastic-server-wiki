@@ -1,10 +1,11 @@
 ### Installation
-* [Get HASTIC_API_KEY](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY)
 * [Linux](https://github.com/hastic/hastic-server/wiki/Installation-in-Linux)
 * [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
 * [RPM](https://github.com/hastic/hastic-server/wiki/Installation-from-RPM)
 
-### [Configuration](https://github.com/hastic/hastic-server/wiki/Configuration)
+### Configuration
+* [Basics](https://github.com/hastic/hastic-server/wiki/Configuration)
+* [Get HASTIC_API_KEY](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY)
 
 ### [Supported datasources](https://github.com/hastic/hastic-grafana-app/wiki/Supported-datasources)
 ### Advanced
