@@ -5,8 +5,8 @@
   * https://github.com/hastic/hastic-server/wiki/Docker
   * https://github.com/hastic/hastic-server/wiki/Installation-from-RPM
 * [Install hastic-grafana-app](https://github.com/hastic/hastic-grafana-app/wiki)
-  * connect hastic-grafana-app to [hastic-server](https://github.com/hastic/hastic-grafana-app/wiki/Getting-started#hastic-datasource)
-  * Setup hastic-server config to connect to Grafana: https://github.com/hastic/hastic-server/wiki/Configuration
+  * [connect hastic-grafana-app to hastic-server](https://github.com/hastic/hastic-grafana-app/wiki/Getting-started#hastic-datasource)
+  * [setup hastic-server config to connect to Grafana](https://github.com/hastic/hastic-server/wiki/Configuration)
 
 
 ## [FAQ](https://github.com/hastic/hastic-server/wiki/FAQ)
