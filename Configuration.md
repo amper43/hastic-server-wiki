@@ -1,10 +1,8 @@
-## Configuration
-
 You can configure hastic-server using either *environment variables* or *config file*.
 
 > NOTE: environment variables have higher priority than config file.
 
-### Environment variables
+## Environment variables
 You can export the following environment variables for hastic-server to use:
 - `HASTIC_API_KEY` - (required) API-key of your Grafana instance (e.g. `eyJrIjoiVjZqMHY0dHk4UEE3eEN4MzgzRnd2aURlMWlIdXdHNW4iLCJuIjoiaGFzdGljIiwiaWQiOjF9`), see [Get-HASTIC_API_KEY](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY)
 - `GRAFANA_URL` - (optional) Grafana URL which can be queried from hastic-server host (e.g. `http://localhost:3000`),
@@ -19,7 +17,7 @@ export HASTIC_PORT=8080
 export GRAFANA_URL=http://localhost:3000
 ```
 
-#### docker-compose .env file
+### docker-compose .env file
 You can also set those variables in `.env` file if you're using `docker-compose`
 `.env` file example:
 ```
@@ -27,6 +25,6 @@ HASTIC_API_KEY=eyJrIjoiVDRUTUlKSjJ5N3dYTDdsd1JyWWRBNHFkb0VSeDBNTTYiLCJuIjoiaGFzd
 GRAFANA_URL=http://localhost:3000
 ```
 
-#### Config file
+### Config file
 You can also rename `config.example.json` to `config.json` and set your values there.
 hastic-server config example: https://github.com/hastic/hastic-server/blob/master/config.example.json
