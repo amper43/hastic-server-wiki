@@ -14,6 +14,7 @@
 * [Webhooks](https://github.com/hastic/hastic-server/wiki/Webhooks)
 
 ### Development
+* [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
 * [Development mode](https://github.com/hastic/hastic-server/wiki/Development-mode)
 * [Changelog](https://github.com/hastic/hastic-server/wiki/Changelog)
 * [Architecture](https://github.com/hastic/hastic-server/wiki/Architecture)
