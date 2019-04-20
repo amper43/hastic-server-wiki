@@ -17,6 +17,8 @@ These files should be placed in one folder.
 
 How to get `HASTIC_API_KEY` is described [here](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY).
 
+Configuration process is described [here](https://github.com/hastic/hastic-server/wiki/Configuration#docker-compose-env-file)
+
 ```bash
 export HASTIC_API_KEY=<your_grafana_api_key>
 docker-compose up -d
