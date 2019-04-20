@@ -2,6 +2,7 @@
 * [Linux](https://github.com/hastic/hastic-server/wiki/Installation-in-Linux)
 * [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
 * [RPM](https://github.com/hastic/hastic-server/wiki/Installation-from-RPM)
+* [From source](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
 
 ### Configuration
 * [Basics](https://github.com/hastic/hastic-server/wiki/Configuration)
@@ -13,7 +14,6 @@
 * [Webhooks](https://github.com/hastic/hastic-server/wiki/Webhooks)
 
 ### Development
-* [Installation from source](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
 * [Development mode](https://github.com/hastic/hastic-server/wiki/Development-mode)
 * [Changelog](https://github.com/hastic/hastic-server/wiki/Changelog)
 * [Architecture](https://github.com/hastic/hastic-server/wiki/Architecture)
