@@ -30,4 +30,6 @@ cd hastic-server/server
 npm start
 ```
 
-See also [Development](https://github.com/hastic/hastic-server/wiki/Development-mode)
+### See also 
+
+* [Development](https://github.com/hastic/hastic-server/wiki/Development-mode)
