@@ -3,7 +3,7 @@
 ### [0.3.3-beta] - not released yet
 
 #### Added
-- Detection on selected time range (+ inspector mode) [#504](https://github.com/hastic/hastic-server/issues/504)
+- Detection on selected time range [#504](https://github.com/hastic/hastic-server/issues/504)
 - Tool for model testing [#561](https://github.com/hastic/hastic-server/issues/561)
 - Endpoint for getting timeseries of analytic unit [#528](https://github.com/hastic/hastic-server/issues/528)
 - Webhooks: Hastic instance name / url [#547](https://github.com/hastic/hastic-server/issues/547)
