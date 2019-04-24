@@ -1,6 +1,6 @@
 ### Changelog
 
-### [0.3.3-beta] - not released yet
+### [0.3.3-beta] - 2019-04-24
 
 #### Added
 - Detection in selected time range [#504](https://github.com/hastic/hastic-server/issues/504)
