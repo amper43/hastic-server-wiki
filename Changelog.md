@@ -13,6 +13,7 @@
 - Don't run detection if learning failed [#549](https://github.com/hastic/hastic-server/issues/549)
 - ValueError: array must not contain infs or NaNs [#563](https://github.com/hastic/hastic-server/issues/563)
 - Dataframe for detection less than two window size [#531](https://github.com/hastic/hastic-server/issues/531)
+- RPM: Hastic server has unsupported version [#557](https://github.com/hastic/hastic-server/issues/557)
 
 #### Changed
 - Sort analytic units by creation date / name [#514](https://github.com/hastic/hastic-server/issues/514)
