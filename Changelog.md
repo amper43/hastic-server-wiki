@@ -1,6 +1,24 @@
 ### Changelog
 
-### [0.3.2-beta] - not released yet
+### [0.3.3-beta] - not released yet
+
+#### Added
+- Detection in selected time range [#504](https://github.com/hastic/hastic-server/issues/504)
+- Tool for model testing [#561](https://github.com/hastic/hastic-server/issues/561)
+- Endpoint for getting timeseries of analytic unit [#528](https://github.com/hastic/hastic-server/issues/528)
+- Webhooks: Hastic instance name / url [#547](https://github.com/hastic/hastic-server/issues/547)
+
+#### Fixed
+- Analytic's dependencies size [#540](https://github.com/hastic/hastic-server/issues/540)
+- Don't run detection if learning failed [#549](https://github.com/hastic/hastic-server/issues/549)
+- ValueError: array must not contain infs or NaNs [#563](https://github.com/hastic/hastic-server/issues/563)
+- Dataframe for detection less than two window size [#531](https://github.com/hastic/hastic-server/issues/531)
+
+#### Changed
+- Sort analytic units by creation date / name [#514](https://github.com/hastic/hastic-server/issues/514)
+- Check python version in run time [#592](https://github.com/hastic/hastic-server/issues/592)
+
+### [0.3.2-beta] - 2019-04-08
 
 #### Added
 - Learning timeout [#481](https://github.com/hastic/hastic-server/issues/481)
