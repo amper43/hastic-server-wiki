@@ -1,5 +1,16 @@
 ### Changelog
 
+### [0.3.4-beta] - not released yet
+#### Added
+- HASTIC_PORT in .env file [#640](https://github.com/hastic/hastic-server/issues/640)
+
+#### Fixed
+- Thresholds error: from is NaN [#621](https://github.com/hastic/hastic-server/issues/621)
+
+#### Changed
+- Detect thresholds on the whole dataset instead of 1 value [#505](https://github.com/hastic/hastic-server/issues/505)
+- Start learning after analytic unit update [#647](https://github.com/hastic/hastic-server/issues/647)
+
 ### [0.3.3-beta] - 2019-04-24
 
 #### Added
