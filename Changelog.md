@@ -2,16 +2,25 @@
 
 ### [0.3.4-beta] - not released yet
 #### Added
+- HSR for anomaly analytic unit [#653](https://github.com/hastic/hastic-server/issues/653)
+- Labeling for anomalies [#631](https://github.com/hastic/hastic-server/issues/631)
 - HASTIC_PORT in .env file [#640](https://github.com/hastic/hastic-server/issues/640)
 
 #### Fixed
 - Thresholds error: from is NaN [#621](https://github.com/hastic/hastic-server/issues/621)
+- Anomaly detector: Need at least 1 labeled segment [#667](https://github.com/hastic/hastic-server/issues/667)
+- Queue or drop learning task on new learning task [#664](https://github.com/hastic/hastic-server/issues/664)
+- Anomaly detector: wrong seasonality offset [#671](https://github.com/hastic/hastic-server/issues/671)
+- Not ending learning for anomaly detector [#665](https://github.com/hastic/hastic-server/issues/665)
 
 #### Changed
 - Detect thresholds on the whole dataset instead of 1 value [#505](https://github.com/hastic/hastic-server/issues/505)
 - Start learning after analytic unit update [#647](https://github.com/hastic/hastic-server/issues/647)
 - Set ready status for span AFTER inserting segments [#648](https://github.com/hastic/hastic-server/issues/648)
 - Remove old detected segments and detection spans when learning starts [#650](https://github.com/hastic/hastic-server/issues/650)
+- Merge threshold segments [#624](https://github.com/hastic/hastic-server/issues/624)
+- Remove old detected segments and detection spans when learning starts [#650](https://github.com/hastic/hastic-server/issues/650)
+- Anomaly detector: send confidence bounds instead of smoothed data [#656](https://github.com/hastic/hastic-server/issues/656)
 
 ### [0.3.3-beta] - 2019-04-24
 
