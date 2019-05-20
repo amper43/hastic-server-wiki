@@ -2,16 +2,16 @@ You need only **nodejs >= 6.14** on your machine
 
 ## Node 6
 ```bash
-wget https://github.com/hastic/hastic-server/releases/download/0.3.3-beta/hastic-server-0.3.3-beta-node-6.tar.gz
-tar -zxvf hastic-server-0.3.3-beta-node-6.tar.gz
-cd hastic-server-0.3.3-beta/server/dist
+wget https://github.com/hastic/hastic-server/releases/download/0.3.4-beta/hastic-server-0.3.4-beta-node-6.tar.gz
+tar -zxvf hastic-server-0.3.4-beta-node-6.tar.gz
+cd hastic-server-0.3.4-beta/server/dist
 node server
 ```
 
 ## Node 8
 ```bash
-wget https://github.com/hastic/hastic-server/releases/download/0.3.3-beta/hastic-server-0.3.3-beta-node-8.tar.gz
-tar -zxvf hastic-server-0.3.3-beta-node-8.tar.gz
-cd hastic-server-0.3.3-beta/server/dist
+wget https://github.com/hastic/hastic-server/releases/download/0.3.4-beta/hastic-server-0.3.4-beta-node-8.tar.gz
+tar -zxvf hastic-server-0.3.4-beta-node-8.tar.gz
+cd hastic-server-0.3.4-beta/server/dist
 node server
 ```
