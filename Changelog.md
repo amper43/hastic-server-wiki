@@ -1,6 +1,6 @@
 ### Changelog
 
-### [0.3.4-beta] - not released yet
+### [0.3.4-beta] - 2019-05-20
 #### Added
 - HSR for anomaly analytic unit [#653](https://github.com/hastic/hastic-server/issues/653)
 - Labeling for anomalies [#631](https://github.com/hastic/hastic-server/issues/631)
