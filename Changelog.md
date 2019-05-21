@@ -16,7 +16,7 @@
 #### Changed
 - Detect thresholds on the whole dataset instead of 1 value [#505](https://github.com/hastic/hastic-server/issues/505)
 - Start learning after analytic unit update [#647](https://github.com/hastic/hastic-server/issues/647)
-- Set ready status for span AFTER inserting segments [#648](https://github.com/hastic/hastic-server/issues/648)
+- Set ready status for span only after inserting segments [#648](https://github.com/hastic/hastic-server/issues/648)
 - Remove old detected segments and detection spans when learning starts [#650](https://github.com/hastic/hastic-server/issues/650)
 - Merge threshold segments [#624](https://github.com/hastic/hastic-server/issues/624)
 - Remove old detected segments and detection spans when learning starts [#650](https://github.com/hastic/hastic-server/issues/650)
