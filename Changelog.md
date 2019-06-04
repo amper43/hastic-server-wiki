@@ -7,6 +7,9 @@
 - Anomaly detector: swapped upper / lower bounds [#683](https://github.com/hastic/hastic-server/issues/683)
 - Error "Can't find interval: length of data" [#688](https://github.com/hastic/hastic-server/pull/688)
 
+#### Changed
+-  Name for basic anomaly detector type [#663](https://github.com/hastic/hastic-server/issues/663)
+
 ### [0.3.4-beta] - 2019-05-20
 #### Added
 - HSR for anomaly analytic unit [#653](https://github.com/hastic/hastic-server/issues/653)
