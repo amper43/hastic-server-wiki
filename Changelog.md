@@ -1,5 +1,12 @@
 ### Changelog
 
+### [0.3.5-beta] - not released yet
+#### Fixed
+- Error: Cannot read property 'alpha' of null [#687](https://github.com/hastic/hastic-server/pull/687)
+- Anomaly detector: NaN as last value [#677](https://github.com/hastic/hastic-server/issues/677)
+- Anomaly detector: swapped upper / lower bounds [#683](https://github.com/hastic/hastic-server/issues/683)
+- Error "Can't find interval: length of data" [#688](https://github.com/hastic/hastic-server/pull/688)
+
 ### [0.3.4-beta] - 2019-05-20
 #### Added
 - HSR for anomaly analytic unit [#653](https://github.com/hastic/hastic-server/issues/653)
