@@ -1,6 +1,6 @@
 ### Changelog
 
-### [0.3.5-beta] - not released yet
+### [0.3.5-beta] - 2019-06-04
 #### Fixed
 - Error: Cannot read property 'alpha' of null [#687](https://github.com/hastic/hastic-server/pull/687)
 - Anomaly detector: NaN as last value [#677](https://github.com/hastic/hastic-server/issues/677)
