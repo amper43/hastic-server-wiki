@@ -4,9 +4,8 @@
 #### Added
 - Anomaly detector: option for disabling upper / lower bound [#701](https://github.com/hastic/hastic-server/issues/701)
 - Segment info [#693](https://github.com/hastic/hastic-server/issues/693)
-
-#### Changed
-- Pattern detected in webhooks message [#560](https://github.com/hastic/hastic-server/issues/560)
+- "[Pattern detected]" in webhooks message [#560](https://github.com/hastic/hastic-server/issues/560)
+- Image for webhook [#705](https://github.com/hastic/hastic-server/issues/705)
 
 ### [0.3.5-beta] - 2019-06-04
 #### Fixed
