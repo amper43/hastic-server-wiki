@@ -7,6 +7,9 @@
 - "[PATTERN DETECTED]" in webhooks message [#560](https://github.com/hastic/hastic-server/issues/560)
 - Image for webhook [#705](https://github.com/hastic/hastic-server/issues/705)
 
+#### Fixed
+- Error: Request failed with status code 406 [#605](https://github.com/hastic/hastic-server/issues/605)
+
 ### [0.3.5-beta] - 2019-06-04
 #### Fixed
 - Error: Cannot read property 'alpha' of null [#687](https://github.com/hastic/hastic-server/pull/687)
