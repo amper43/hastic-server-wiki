@@ -1,6 +1,6 @@
 ### Changelog
 
-### [0.3.6-beta] - not released yet
+### [0.3.6-beta] - 2019-07-04
 #### Added
 - Anomaly detector: option for disabling upper / lower bound [#701](https://github.com/hastic/hastic-server/issues/701)
 - Segment info [#693](https://github.com/hastic/hastic-server/issues/693)
