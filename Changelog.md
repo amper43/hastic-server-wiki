@@ -1,5 +1,13 @@
 ### Changelog
 
+### [0.4.0] - not released yet
+#### Changed
+- Anomaly detector bounds switch: disabling to enabling [#709](https://github.com/hastic/hastic-server/issues/709)
+
+#### Fixed
+- Data kit error: status code 400 [#300](https://github.com/hastic/hastic-server/issues/300)
+- Don't throw exception if HASTIC_WEBHOOK_URL is undefined [#593](https://github.com/hastic/hastic-server/issues/593)
+
 ### [0.3.6-beta] - 2019-07-04
 #### Added
 - Anomaly detector: option for disabling upper / lower bound [#701](https://github.com/hastic/hastic-server/issues/701)
