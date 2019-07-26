@@ -1,6 +1,9 @@
 ### Changelog
 
 ### [0.3.7] - not released yet
+#### Added
+- Threshold line for HSR [#727](https://github.com/hastic/hastic-server/issues/727)
+
 #### Changed
 - Anomaly detector bounds switch: disabling to enabling [#709](https://github.com/hastic/hastic-server/issues/709)
 
