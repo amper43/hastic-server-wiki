@@ -1,6 +1,6 @@
 ### Changelog
 
-### [0.4.0] - not released yet
+### [3.7.0] - not released yet
 #### Changed
 - Anomaly detector bounds switch: disabling to enabling [#709](https://github.com/hastic/hastic-server/issues/709)
 
