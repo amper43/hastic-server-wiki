@@ -6,10 +6,15 @@
 
 #### Changed
 - Anomaly detector bounds switch: disabling to enabling [#709](https://github.com/hastic/hastic-server/issues/709)
+- Anomaly detector's segments concatenation [#716](https://github.com/hastic/hastic-server/issues/716)
+- Merge segments before sending a webhook [#742](https://github.com/hastic/hastic-server/issues/742)
 
 #### Fixed
 - Data kit error: status code 400 [#300](https://github.com/hastic/hastic-server/issues/300)
 - Don't throw exception if HASTIC_WEBHOOK_URL is undefined [#593](https://github.com/hastic/hastic-server/issues/593)
+- Error: skip detection: data length less than window_size [#690](https://github.com/hastic/hastic-server/issues/690)
+- Error: Cannot read property 'data' of null [#739](https://github.com/hastic/hastic-server/issues/739)
+- Large segments are not shown [#744](https://github.com/hastic/hastic-server/issues/744)
 
 ### [0.3.6-beta] - 2019-07-04
 #### Added
