@@ -8,13 +8,19 @@
 - Anomaly detector bounds switch: disabling to enabling [#709](https://github.com/hastic/hastic-server/issues/709)
 - Anomaly detector's segments concatenation [#716](https://github.com/hastic/hastic-server/issues/716)
 - Merge segments before sending a webhook [#742](https://github.com/hastic/hastic-server/issues/742)
+- Class for analytic unit object structure [#760](https://github.com/hastic/hastic-server/issues/760)
 
 #### Fixed
 - Data kit error: status code 400 [#300](https://github.com/hastic/hastic-server/issues/300)
 - Don't throw exception if HASTIC_WEBHOOK_URL is undefined [#593](https://github.com/hastic/hastic-server/issues/593)
 - Error: skip detection: data length less than window_size [#690](https://github.com/hastic/hastic-server/issues/690)
+- Slack webhook returns 400 missing_text_or_fallback_or_attachments [#708](https://github.com/hastic/hastic-server/issues/708)
+- Cannot set property 'gte' of undefined [#715](https://github.com/hastic/hastic-server/issues/715)
+- Error: too many values to unpack [#721](https://github.com/hastic/hastic-server/issues/721)
 - Error: Cannot read property 'data' of null [#739](https://github.com/hastic/hastic-server/issues/739)
 - Large segments are not shown [#744](https://github.com/hastic/hastic-server/issues/744)
+- Anomaly detector: detection re-running in inspect mode [#757](https://github.com/hastic/hastic-server/issues/757)
+- Error: Can`t find cache for analytic unit [#772](https://github.com/hastic/hastic-server/issues/772)
 
 ### [0.3.6-beta] - 2019-07-04
 #### Added
