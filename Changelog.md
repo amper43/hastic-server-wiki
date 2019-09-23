@@ -8,7 +8,6 @@
 - Anomaly detector bounds switch: disabling to enabling [#709](https://github.com/hastic/hastic-server/issues/709)
 - Anomaly detector's segments concatenation [#716](https://github.com/hastic/hastic-server/issues/716)
 - Merge segments before sending a webhook [#742](https://github.com/hastic/hastic-server/issues/742)
-- Class for analytic unit object structure [#760](https://github.com/hastic/hastic-server/issues/760)
 
 #### Fixed
 - Data kit error: status code 400 [#300](https://github.com/hastic/hastic-server/issues/300)
