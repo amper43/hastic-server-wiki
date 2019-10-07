@@ -1,7 +1,7 @@
-You can configure hastic-server using either *environment variables* or *config file*.
+You can configure hastic-server using either **environment variables** or **config file**.
 
 ## Config variables priority
-Config variables have follow priority, from higher to lower:
+Config variables have the following priority, from higher to lower:
 - environment variables
 - variables from config file
 
@@ -28,8 +28,8 @@ HASTIC_API_KEY=eyJrIjoiVDRUTUlKSjJ5N3dYTDdsd1JyWWRBNHFkb0VSeDBNTTYiLCJuIjoiaGFzd
 GRAFANA_URL=http://localhost:3000
 ```
 
-This variables will be set as environment variables and will have highest priority.
-Note: variable from `.env` file will be applyed only if `docker-compose.yml` have variable name in `services.server.environment` section. Example for `ZMQ_CONNECTION_STRING` from Hastic's [docker-compose.yml](https://github.com/hastic/hastic-server/blob/master/docker-compose.yml):
+This variables will be set as environment variables and will have the highest priority.
+>Note: variable from `.env` file will be applied only if `docker-compose.yml` has variable name in `services.server.environment` section. Example for `ZMQ_CONNECTION_STRING` from Hastic's [docker-compose.yml](https://github.com/hastic/hastic-server/blob/master/docker-compose.yml):
 ```
     environment:
       ZMQ_CONNECTION_STRING: ${ZMQ_CONNECTION_STRING:-tcp://analytics:8002}
@@ -40,13 +40,13 @@ You can also rename `config.example.json` to `config.json` and set your values t
 hastic-server config example: https://github.com/hastic/hastic-server/blob/master/config.example.json
 
 ### Database configuration
-`HASTIC_DB_CONNECTION_TYPE` set database connection type and can have follow values:
-`nedb` - will be used local storage in files and `NeDB` as data base
-`mongodb` - will be used remote MongoDB as data base
+`HASTIC_DB_CONNECTION_TYPE` -- database type. Can have the following values:
+- `nedb` - NeDB will be used as database
+- `mongodb` - MongoDB will be used as database
 
-`HASTIC_DB_CONNECTION_STRING` set string for connection with MongoDB.
-Format is follow: `<db_user>:<db_password>@<db_url>/<db_name>`. For example `hastic:password@mongodb.example.com:27017/hastic`:
-- username: hastic
-- password: password
-- mongodb url: mongodb.example.com:27017
-- database: hastic
+`HASTIC_DB_CONNECTION_STRING` -- connection-string for MongoDB.
+Connection-string has the following format: `<db_user>:<db_password>@<db_url>/<db_name>`. For example `hastic:password@mongodb.example.com:27017/hastic`:
+- username: `hastic`
+- password: `password`
+- mongodb-url: `mongodb.example.com:27017`
+- database: `hastic`
