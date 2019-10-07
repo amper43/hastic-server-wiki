@@ -3,10 +3,12 @@
 ### [0.3.7] - not released yet
 #### Added
 - Threshold line for HSR [#727](https://github.com/hastic/hastic-server/issues/727)
+- MongoDB persistence [#570](https://github.com/hastic/hastic-server/issues/570)
+- Notifications timezone [#649](https://github.com/hastic/hastic-server/issues/649)
 
 #### Changed
 - Anomaly detector bounds switch: disabling to enabling [#709](https://github.com/hastic/hastic-server/issues/709)
-- Anomaly detector's segments concatenation [#716](https://github.com/hastic/hastic-server/issues/716)
+- Concatenate anomaly detector's segments [#716](https://github.com/hastic/hastic-server/issues/716)
 - Merge segments before sending a webhook [#742](https://github.com/hastic/hastic-server/issues/742)
 
 #### Fixed
@@ -20,6 +22,8 @@
 - Large segments are not shown [#744](https://github.com/hastic/hastic-server/issues/744)
 - Anomaly detector: detection re-running in inspect mode [#757](https://github.com/hastic/hastic-server/issues/757)
 - Error: Can`t find cache for analytic unit [#772](https://github.com/hastic/hastic-server/issues/772)
+- Error: $or must be an array [#778](https://github.com/hastic/hastic-server/issues/778)
+- Notification problem with MongoDB [#780](https://github.com/hastic/hastic-server/issues/780)
 
 ### [0.3.6-beta] - 2019-07-04
 #### Added
