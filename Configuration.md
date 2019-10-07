@@ -45,6 +45,7 @@ hastic-server config example: https://github.com/hastic/hastic-server/blob/maste
 - `mongodb` - MongoDB will be used as database
 
 `HASTIC_DB_CONNECTION_STRING` - connection-string **for MongoDB** (not used with nedb).
+
 Connection-string has the following format: `<db_user>:<db_password>@<db_url>/<db_name>`. For example `hastic:password@mongodb.example.com:27017/hastic`:
 - username: `hastic`
 - password: `password`
