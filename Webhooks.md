@@ -24,12 +24,9 @@ JSON Payload example
 }
 ```
 #### Timezone configuration (optional)
-`TIMEZONE_UTC_OFFSET` set timezone for getting notifications. You need to set variables (whether in `config.json` or as environment variables):
-Format: `<h>/<-h>:<mm>`. For example:
+`TIMEZONE_UTC_OFFSET` configuration variable sets the timezone for getting notifications.
+Format: `[-]<h>:<mm>`. For example:
 - `"TIMEZONE_UTC_OFFSET": "3:00"` - UTC+3:00
 - `"TIMEZONE_UTC_OFFSET": "-2:30"` - UTC-2:30
 
-If there is no field, server will be used default value equals your local timezone offset.
-
-
-See [Webhooks](https://github.com/hastic/hastic-grafana-graph-panel/wiki/Webhooks) oh hastic-grafana-panel
+If `TIMEZONE_UTC_OFFSET` is not set, server will use your local timezone offset.
