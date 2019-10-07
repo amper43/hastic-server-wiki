@@ -1,8 +1,8 @@
 ### Changelog
 
-### [0.3.7] - not released yet
+### [0.3.7] - 2019-10-07
 #### Added
-- Threshold line for HSR [#727](https://github.com/hastic/hastic-server/issues/727)
+- Threshold line in Inspect mode [#727](https://github.com/hastic/hastic-server/issues/727)
 - MongoDB persistence [#570](https://github.com/hastic/hastic-server/issues/570)
 - Notifications timezone [#649](https://github.com/hastic/hastic-server/issues/649)
 
