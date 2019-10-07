@@ -40,11 +40,11 @@ You can also rename `config.example.json` to `config.json` and set your values t
 hastic-server config example: https://github.com/hastic/hastic-server/blob/master/config.example.json
 
 ### Database configuration
-`HASTIC_DB_CONNECTION_TYPE` -- database type. Can have the following values:
+`HASTIC_DB_CONNECTION_TYPE` - database type. Can have the following values:
 - `nedb` - NeDB will be used as database
 - `mongodb` - MongoDB will be used as database
 
-`HASTIC_DB_CONNECTION_STRING` -- connection-string for MongoDB.
+`HASTIC_DB_CONNECTION_STRING` - connection-string **for MongoDB** (not used with nedb).
 Connection-string has the following format: `<db_user>:<db_password>@<db_url>/<db_name>`. For example `hastic:password@mongodb.example.com:27017/hastic`:
 - username: `hastic`
 - password: `password`
