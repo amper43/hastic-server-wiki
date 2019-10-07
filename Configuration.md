@@ -41,7 +41,7 @@ hastic-server config example: https://github.com/hastic/hastic-server/blob/maste
 
 ### Database configuration
 `HASTIC_DB_CONNECTION_TYPE` - database type. Can have the following values:
-- `nedb` - NeDB will be used as database
+- `nedb` (default) - NeDB will be used as database
 - `mongodb` - MongoDB will be used as database
 
 `HASTIC_DB_CONNECTION_STRING` - connection-string **for MongoDB** (not used with nedb).
