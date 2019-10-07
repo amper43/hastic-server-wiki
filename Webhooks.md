@@ -14,9 +14,13 @@ NOTE: if you have Hastic running in Docker and want to send webhooks to some ser
 JSON Payload example
 ```json
 {
-  "analyticUnitName": "cpu_peaks",
-  "from": 1544135000,
-  "to": 1544138330
+  "analyticUnitName": "Anomaly_unit",
+  "URL": "url_string",
+  "Image": "image_url_string",
+  "from": "Mon Oct 07 2019 16:51:00 UTC+03:00",
+  "to": "Mon Oct 07 2019 16:53:00 UTC+03:00",
+  "ID": "ID_string",
+  "Message": "21 out of bound",
 }
 ```
 #### Timezone configuration (optional)
