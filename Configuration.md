@@ -39,7 +39,7 @@ Note: variable from `.env` file will be applyed only if `docker-compose.yml` hav
 You can also rename `config.example.json` to `config.json` and set your values there.
 hastic-server config example: https://github.com/hastic/hastic-server/blob/master/config.example.json
 
-### Data base configuration
+### Database configuration
 `HASTIC_DB_CONNECTION_TYPE` set database connection type and can have follow values:
 `nedb` - will be used local storage in files and `NeDB` as data base
 `mongodb` - will be used remote MongoDB as data base
