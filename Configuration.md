@@ -51,3 +51,7 @@ Connection-string has the following format: `<db_user>:<db_password>@<db_url>/<d
 - password: `password`
 - mongodb-url: `mongodb.example.com:27017`
 - database: `hastic`
+
+To use MongoDB with Hastic:
+- create DB: https://docs.mongodb.com/manual/faq/fundamentals/#how-do-i-create-a-database-and-a-collection
+- create user with read / write roles on that DB: https://docs.mongodb.com/manual/reference/method/db.createUser/#create-user-with-roles
