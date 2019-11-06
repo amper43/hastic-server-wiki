@@ -1,5 +1,4 @@
-
-It's possible to get notifications about new detection of patterns via [Webhooks](https://en.wikipedia.org/wiki/Webhook)
+It's possible to get notifications about new detection of patterns via [Webhooks](https://en.wikipedia.org/wiki/Webhook).
 
 You need to set variables (whether in `config.json` or as environment variables):
 - `HASTIC_WEBHOOK_URL` with your endpoint which expects `POST` requests
@@ -20,3 +19,15 @@ Format: `[-]<h>:<mm>`. For example:
 - `"TIMEZONE_UTC_OFFSET": "-2:30"` - UTC-2:30
 
 If `TIMEZONE_UTC_OFFSET` is not set, server will use your local timezone offset.
+
+#### Send alerts to Telegram
+Visit [hastic-telegram-bot page](https://github.com/hastic/hastic-telegram-bot) to learn how to send alerts to [Telegram](telegram.org) using webhooks.
+
+#### Send alerts to Slack
+
+`config.json` example to send alerts to [Slack](https://slack.com):
+```
+HASTIC_WEBHOOK_URL = "<slack_webhook_url>"
+HASTIC_WEBHOOK_TYPE = "application/json"
+```
+More info [on Slack site](https://api.slack.com/messaging/webhooks)
