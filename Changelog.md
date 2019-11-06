@@ -7,7 +7,7 @@
 - Single analytic unit in webhook image [#799](https://github.com/hastic/hastic-grafana-app/issues/799)
 
 #### Fixed
-- Use the same syntax for nedb and mongodb [#792](https://github.com/hastic/hastic-grafana-app/pull/792)
+- Use the same syntax for nedb and mongodb queries [#792](https://github.com/hastic/hastic-grafana-app/pull/792)
 - "Error: Need at least 1 labeled segment" when labeling only negative segment [#790](https://github.com/hastic/hastic-grafana-app/pull/790)
 - Node 6 build [#788](https://github.com/hastic/hastic-grafana-app/pull/788)
 
