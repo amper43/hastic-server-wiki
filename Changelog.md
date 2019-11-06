@@ -1,5 +1,3 @@
-## Changelog
-
 ### [0.3.8] - not released yet
 #### Added
 - Alert compatibility with Prometheus Alertmanager [#482](https://github.com/hastic/hastic-server/issues/482)
