@@ -24,10 +24,10 @@ If `TIMEZONE_UTC_OFFSET` is not set, server will use your local timezone offset.
 Visit [hastic-telegram-bot page](https://github.com/hastic/hastic-telegram-bot) to learn how to send alerts to [Telegram](telegram.org) using webhooks.
 
 #### Send alerts to Slack
+[Visit Slack site](https://api.slack.com/messaging/webhooks) to learn how to enable incoming webhooks.
 
-`config.json` example to send alerts to [Slack](https://slack.com):
+[config.json](https://github.com/hastic/hastic-server/wiki/Configuration) example to send alerts to [Slack](https://slack.com):
 ```
 HASTIC_WEBHOOK_URL = "<slack_webhook_url>"
 HASTIC_WEBHOOK_TYPE = "application/json"
 ```
-More info [on Slack site](https://api.slack.com/messaging/webhooks)
