@@ -10,19 +10,9 @@ NOTE: if you have Hastic running in Docker and want to send webhooks to some ser
   - `application/x-www-form-urlencoded` (default) - payload will be sent as form parameters
   - `application/json` - payload will be sent in request body as JSON
 
+#### Webhook image (optional)
+Webhooks can contain a panel screenshot with detected segments if you set `HASTIC_ALERT_IMAGE` to `true`. Default value: `false`
 
-JSON Payload example
-```json
-{
-  "analyticUnitName": "Anomaly_unit",
-  "URL": "url_string",
-  "Image": "image_url_string",
-  "from": "Mon Oct 07 2019 16:51:00 UTC+03:00",
-  "to": "Mon Oct 07 2019 16:53:00 UTC+03:00",
-  "ID": "ID_string",
-  "Message": "21 out of bound",
-}
-```
 #### Timezone configuration (optional)
 `TIMEZONE_UTC_OFFSET` configuration variable sets the timezone for getting notifications.
 Format: `[-]<h>:<mm>`. For example:
