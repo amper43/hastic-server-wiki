@@ -1,4 +1,4 @@
-### [0.3.8] - not released yet
+### [0.3.8] - 2019-11-07
 #### Added
 - Alert compatibility with Prometheus Alertmanager [#482](https://github.com/hastic/hastic-server/issues/482)
 - Docker-compose with MongoDB [#796](https://github.com/hastic/hastic-server/pull/796)
