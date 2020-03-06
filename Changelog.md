@@ -1,4 +1,4 @@
-### [0.3.9] - not released yet
+### [0.3.9] - 03-06-2020
 #### Added
 - Websocket connectivity between server and analytics [#814](https://github.com/hastic/hastic-server/pull/814)
 - Export / import analytic units [#830](https://github.com/hastic/hastic-server/issues/830)
