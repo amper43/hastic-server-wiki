@@ -1,3 +1,15 @@
+### [0.3.9] - not released yet
+#### Added
+- Websocket connectivity between server and analytics [#814](https://github.com/hastic/hastic-server/pull/814)
+- Export / import analytic units [#830](https://github.com/hastic/hastic-server/issues/830)
+
+#### Fixed
+- Cannot read property 'branch' of null [#831](https://github.com/hastic/hastic-server/issues/831)
+- Error handling in exitHandler [#853](https://github.com/hastic/hastic-server/issues/853)
+- Segment seasonality offset [#805](https://github.com/hastic/hastic-server/issues/805)
+- Build warnings: mongodb dependencies [#820](https://github.com/hastic/hastic-server/issues/820)
+- ERROR: Property 'length' is missing in type 'AnalyticMeta' [#823](https://github.com/hastic/hastic-server/issues/823)
+
 ### [0.3.8] - 2019-11-07
 #### Added
 - Alert compatibility with Prometheus Alertmanager [#482](https://github.com/hastic/hastic-server/issues/482)
