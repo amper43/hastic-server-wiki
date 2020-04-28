@@ -15,10 +15,10 @@ Possible to install on:
 
 #### Installation
 ```bash
-git clone https://github.com/hastic/hastic-server.git
+git clone --recursive https://github.com/hastic/hastic-server.git
 cd hastic-server
 pip3 install -r analytics/requirements.txt
-# python -m pip install -r analytics/requirements.txt
+python -m pip install -r analytics/requirements.txt
 cd server
 npm install
 npm run build
