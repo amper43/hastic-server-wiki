@@ -5,7 +5,7 @@ Possible to install on:
 * [Linux](#linux)
 * [Docker](#docker)
 
-### Linux
+### Linux / Mac OSX
 
 #### System prerequisites:
 
