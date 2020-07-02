@@ -19,7 +19,6 @@ git clone --recursive https://github.com/hastic/hastic-server.git
 # or `git submodule update --init --recursive` inside `hastic-server` directory if it's already cloned
 cd hastic-server
 pip3 install -r analytics/requirements.txt
-python -m pip install -r analytics/requirements.txt
 cd server
 npm install
 npm run build
