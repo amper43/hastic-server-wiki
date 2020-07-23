@@ -1,4 +1,4 @@
-### [0.4.0] - not released yet
+### [0.4.0] - 07-23-2020
 #### Added
 - Configurable logging level [hastic/analytics#19](https://github.com/hastic/analytics/issues/19)
 
