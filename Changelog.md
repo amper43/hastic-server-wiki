@@ -1,3 +1,14 @@
+### [0.4.0] - not released yet
+#### Added
+- Configurable logging level [hastic/analytics#19](https://github.com/hastic/analytics/issues/19)
+
+#### Fixed
+- Unfriendly crash with missing `HASTIC_API_KEY` [#899](https://github.com/hastic/hastic-server/issues/899)
+
+#### Changed
+- Move analytics to [hastic/analytics](https://github.com/hastic/analytics) repo [#890](https://github.com/hastic/hastic-server/pull/890)
+- Remove `deasync` lib [#829](https://github.com/hastic/hastic-server/issues/829)
+
 ### [0.3.9] - 03-06-2020
 #### Added
 - Websocket connectivity between server and analytics [#814](https://github.com/hastic/hastic-server/pull/814)
