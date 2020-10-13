@@ -3,6 +3,7 @@
 - Replaced `grafana-datasource-kit` library with [@corpglory/tsdb-kit](https://github.com/CorpGlory/tsdb-kit) [#925](https://github.com/hastic/hastic-server/issues/925):
   - MySQL support
   - fixed "Cannot read property 'queries' of undefined" in PostgreSQL
+- Single RPM version for all node versions since 6.14 [#935](https://github.com/hastic/hastic-server/pull/935)
 
 ### [0.4.0] - 07-23-2020
 #### Added
