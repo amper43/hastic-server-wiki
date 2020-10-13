@@ -1,3 +1,14 @@
+### [0.5.0] - [not released yet]
+#### Added
+- .env.example with variables documentation in server [#931](https://github.com/hastic/hastic-server/pull/931)
+- .env.example with variables documentation in analytics [#25](https://github.com/hastic/analytics/pull/25)
+- Fix Docker run [#21](https://github.com/hastic/analytics/pull/21)
+
+#### Changed
+- Replaced `grafana-datasource-kit` library with [@corpglory/tsdb-kit](https://github.com/CorpGlory/tsdb-kit) [#925](https://github.com/hastic/hastic-server/issues/925):
+  - MySQL support
+  - fixed "Cannot read property 'queries' of undefined" in PostgreSQL
+
 ### [0.4.0] - 07-23-2020
 #### Added
 - Configurable logging level [hastic/analytics#19](https://github.com/hastic/analytics/issues/19)
