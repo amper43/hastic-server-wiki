@@ -14,10 +14,9 @@ Hastic queries Grafana to get data from datasoures: InfluxDB, Prometheus, Graphi
 Hastic consist of two main parts: server and client applications, you should install both parts.
 
 ## Install server
-  * [Binary](https://github.com/hastic/hastic-server/wiki/Installation-from-binary)
-  * [Linux](https://github.com/hastic/hastic-server/wiki/Installation-in-Linux)
-  * [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
-  * [RPM](https://github.com/hastic/hastic-server/wiki/Installation-from-RPM)
+  * [Binary](https://github.com/hastic/hastic-server/wiki/Installation#Binary)
+  * [Docker](https://github.com/hastic/hastic-server/wiki/Installation#Docker)
+  * [RPM](https://github.com/hastic/hastic-server/wiki/Installation#RPM)
 ## Install client
   * [Install hastic-grafana-app](https://github.com/hastic/hastic-grafana-app/wiki/Installation)
   * [Connect hastic-grafana-app to hastic-server](https://github.com/hastic/hastic-grafana-app/wiki/Getting-started)
