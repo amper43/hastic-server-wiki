@@ -7,7 +7,7 @@ Config variables have the following priority, from higher to lower:
 
 ## Environment variables
 You can export the following environment variables for hastic-server to use:
-- `HASTIC_API_KEY` - (required) API-key of your Grafana instance (e.g. `eyJrIjoiVjZqMHY0dHk4UEE3eEN4MzgzRnd2aURlMWlIdXdHNW4iLCJuIjoiaGFzdGljIiwiaWQiOjF9`), see [Get HASTIC_API_KEY](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY)
+- `HASTIC_API_KEY` - (**required**) API-key of your Grafana instance (e.g. `eyJrIjoiVjZqMHY0dHk4UEE3eEN4MzgzRnd2aURlMWlIdXdHNW4iLCJuIjoiaGFzdGljIiwiaWQiOjF9`), see [Get HASTIC_API_KEY](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY)
 - `GRAFANA_URL` - (optional) Grafana URL which can be queried from hastic-server host (e.g. `http://localhost:3000`),
 - `HASTIC_PORT` - (optional) port you want to run server on, default: `8000`
 - `HASTIC_WEBHOOK_URL` - (optional) use it if you want to get webhooks with new detections (e.g.`http://localhost:8080`),

@@ -20,24 +20,29 @@ NOTE: if you have Grafana and Hastic running on the same host, use your host IP 
 ## Run via docker-compose
 
 You can use [docker-compose](https://docs.docker.com/compose/) setup for more useful and declarative management of containers. For this you need `docker-compose.yml` file that contains services configuration and `.env` file that contains variables default values which are placed here:  
-* [docker-compose.yml](https://github.com/hastic/hastic-server/blob/master/docker-compose.yml)  
-* [.env](https://github.com/hastic/hastic-server/blob/master/.env)  
+* [docker-compose.yml](https://github.com/hastic/hastic-server/blob/master/docker-compose-mongo.yml)  
+* [example of .env](https://github.com/hastic/hastic-server/blob/master/server/.env.example)  
 
 These files should be placed in one folder.
 
-How to get `HASTIC_API_KEY` is described [here](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY).
+Firstly get `HASTIC_API_KEY` as described [here](https://github.com/hastic/hastic-server/wiki/Get-HASTIC_API_KEY).
 
-Configuration process is described [here](https://github.com/hastic/hastic-server/wiki/Configuration#docker-compose-env-file)
+Than get example of `.env` file:
+```bash
+wget https://raw.githubusercontent.com/hastic/hastic-server/master/server/.env.example
+mv .env.example .env
+```
+Edit `.env` according docs [here](https://github.com/hastic/hastic-server/wiki/Configuration#docker-compose-env-file)
 
+Finaly run server:
 ```bash
 export HASTIC_API_KEY=<your_grafana_api_key>
-# to run Hastic with internal nedb DB
-docker-compose up -d
+wget https://raw.githubusercontent.com/hastic/hastic-server/master/docker-compose-mongo.yml
 # to run Hastic along with MongoDB
 docker-compose up -d -f docker-compose-mongo.yml
 ```
 
-## Run manually
+## Run docker containers manually
 ```bash
 docker run -d \
   --name hastic-analytics \
