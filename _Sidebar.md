@@ -1,8 +1,8 @@
 ### Installation
+* [Binary](https://github.com/hastic/hastic-server/wiki/Installation-from-binary)
 * [Linux](https://github.com/hastic/hastic-server/wiki/Installation-in-Linux)
 * [Docker](https://github.com/hastic/hastic-server/wiki/Docker)
 * [RPM](https://github.com/hastic/hastic-server/wiki/Installation-from-RPM)
-* [From source](https://github.com/hastic/hastic-server/wiki/Installation-from-source)
 
 ### Configuration
 * [Basics](https://github.com/hastic/hastic-server/wiki/Configuration)
