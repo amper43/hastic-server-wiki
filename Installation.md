@@ -1,5 +1,5 @@
-# Binary
-Installation on Linux
+# Linux
+
 **Work in progress: need final example for binary installation**
 
 ```bash
